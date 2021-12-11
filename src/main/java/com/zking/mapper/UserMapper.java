@@ -42,10 +42,7 @@ public interface UserMapper {
      */
     public Set<String> getPermissionByUserName(String username);
 
-    /**
-     * 获取所有用户信息
-     * @return
-     */
+
     List<User> list();
 
 
